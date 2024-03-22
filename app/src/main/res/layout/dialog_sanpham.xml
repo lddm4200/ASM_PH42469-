@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMaSp"
+        android:hint="Mã SP"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNameSp"
+        android:hint="Tên SP"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtGia"
+        android:hint="Gia"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/black"/>
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtSoLuong"
+    android:hint="So Luong"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:layout_marginBottom="12dp"
+    android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAvatar"
+        android:hint="Link ảnh"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+<!--        <Button-->
+<!--            android:id="@+id/btnChonAnh"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/btn"-->
+<!--            android:backgroundTint="#B39743"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:text="Chọn ảnh"/>-->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:text="Save"/>
+    </LinearLayout>
+
+</LinearLayout>
